@@ -525,3 +525,59 @@ body{
     margin-top: 45px;
     margin-bottom: 30px;
 }
+
+/* ============================= End of Top Selling Items =============================*/
+
+/*=============================FOOTER SECTION================================*/
+
+.footer-section{
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.footer-section-contact{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-section-links{
+    width: 15%;
+    margin: 30px;
+}
+
+.footer-section-policy{
+    width: 20%;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.footer-section-heading{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.footer-section-heading hr{
+    border:2px solid white;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    width: 80px;
+}
+
+.footer-section-content ul{
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+.footer-section-content ul li{
+    margin: 15px;
+    cursor: pointer;
+}
+/*=============================End of FOOTER SECTION================================*/

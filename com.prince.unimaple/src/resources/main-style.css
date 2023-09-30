@@ -246,28 +246,32 @@ body{
 /* =============================END of HOME SECTION====================================*/
 
 
-/* =============================OFFICE SECTION================================*/
-
-.office-content{
-    margin-top: 10px;
+/* =============================ODD CONTENT SECTION================================*/
+/*
+    Odd conetnt includes section :
+                                    1.OFFICE SECTION
+                                    2.DECOR & UTILITY SECTION
+*/
+.odd-content{
+    margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
-.office-content-left img{
+.odd-content-left img{
     width: 90%;
     height: 100%;
     box-shadow: 0px 0px 3px grey;
     transition: all .3s;
 }
 
-.office-content-left img:hover{
+.odd-content-left img:hover{
     transition: all .3s;
     transform: scale(1.1);
 }
 
-.office-content hr{
+.odd-content hr{
     border: 2px solid darkgray;
     background-color: darkgray;
     height: 180px;
@@ -275,14 +279,14 @@ body{
     margin-top: 15px;
 }
 
-.office-content-right{
+.odd-content-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
 }
 
-.office-content-right-top{
+.odd-content-right-top{
     width: 250px;
     letter-spacing: 5px;
     background-color: rgb(232, 173, 183);
@@ -293,12 +297,12 @@ body{
     margin-left: 10px;
 }
 
-.office-content-right-middle{
+.odd-content-right-middle{
     margin: 10px;
     width: 600px;
 }
 
-.office-content-right-middle h1{
+.odd-content-right-middle h1{
     font-size: 40px;
     letter-spacing: 2px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -308,20 +312,20 @@ body{
     margin-bottom: 10px;
 }
 
-.office-content-right-middle p{
+.odd-content-right-middle p{
     font-size: large;
     font-weight: lighter;
     margin-left: 3px;
 }
 
-.office-content-right-bottom{
+.odd-content-right-bottom{
     margin-top: 20px;
     width: 150px;
     text-align: center;
     transition: all .5s;
 }
 
-.office-content-right-bottom a{
+.odd-content-right-bottom a{
     text-decoration: none;
     letter-spacing: 1px;
     color: black;
@@ -329,26 +333,30 @@ body{
     padding: 10px;
 }
 
-.office-content-right-bottom a:hover{
+.odd-content-right-bottom a:hover{
     color: white;
     background-color: black;
     transition: all .5s ;
 }
 
-/* =============================End of OFFICE SECTION================================*/
+/* =============================End of ODD CONTENT SECTION================================*/
 
 
 
-/*=============================HOTEL SECTION================================*/
+/*=============================EVEN CONTENT SECTION================================*/
+/*
+    Even conetnt includes section :
+                                    1.HOTEL SECTION
+*/
 
-.hotel-content{
-    margin-top: 10px;
+.even-content{
+    margin-top: 30px;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
 
-.hotel-content-left{
+.even-content-left{
 
     display: flex;
     justify-content: center;
@@ -357,7 +365,7 @@ body{
     margin-right: 10px;
 }
 
-.hotel-content-left-top{
+.even-content-left-top{
     letter-spacing: 5px;
     background-color: rgb(148, 204, 223);
     padding: 5px;
@@ -366,13 +374,13 @@ body{
     margin-right: 10px;
 }
 
-.hotel-content-left-middle{
+.even-content-left-middle{
     margin: 10px;
     width: 600px;
     text-align: end;
 }
 
-.hotel-content-left-middle h1{
+.even-content-left-middle h1{
     font-size: 40px;
     letter-spacing: 2px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -382,20 +390,20 @@ body{
     margin-bottom: 10px;
 }
 
-.hotel-content-left-middle p{
+.even-content-left-middle p{
     font-size: large;
     font-weight: lighter;
     margin-left: 3px;
 }
 
-.hotel-content-left-bottom{
+.even-content-left-bottom{
     margin-top: 20px;
     width: 150px;
     text-align: center;
     transition: all .5s;
 }
 
-.hotel-content-left-bottom a{
+.even-content-left-bottom a{
     text-decoration: none;
     letter-spacing: 1px;
     color: black;
@@ -403,32 +411,32 @@ body{
     padding: 10px;
 }
 
-.hotel-content-left-bottom a:hover{
+.even-content-left-bottom a:hover{
     color: white;
     background-color: black;
     transition: all .5s ;
 }
 
-.hotel-content hr{
+.even-content hr{
     border: 2px solid darkgray;
     background-color: darkgray;
     height: 180px;
     width: 2px;
     margin-top: 15px;
 }
-.hotel-content-right{
+.even-content-right{
     text-align: end;
 }
-.hotel-content-right img{
+.even-content-right img{
     width: 90%;
     height: 100%;
     box-shadow: 0px 0px 3px grey;
     transition: all .3s;
 }
 
-.hotel-content-right img:hover{
+.even-content-right img:hover{
     transition: all .3s;
     transform: scale(1.1);
 }
 
-/* =============================End of HOTEL SECTION================================*/
+/* =============================End of EVEN CONTENT SECTION================================*/
